@@ -204,7 +204,7 @@ header {
         margin-top: 170px; /* Altura estimada do header */
         height: calc(100vh - 220px); /* Altura total menos o header */
         overflow-y: auto;
-        padding-bottom: 150px;
+        padding-bottom: 160px;
     }
 
     section {
@@ -220,7 +220,7 @@ header {
 
         .card {
             a {
-            margin-top: 20px;
+            margin: 20px auto;
             }
         }
         
