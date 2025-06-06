@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f4f4;
+    /* background: url(/assets/code-block.png);
+    background-size: 200px;
+    background-position: 10px; */
+} 
+
+header {
+    padding: 45px;
+    color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: 5px solid #140f6d;
+    background: url(/assets/background-mocolab.png) #6C63FF no-repeat right;
+    background-size: 300px;
+
+    h1 {
+        font-family: "Tektur", sans-serif;
+        font-weight: 600;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+        transition: 0.4s;
+    }
+
+    h1:hover {
+        color: #d6d3d3;
+        transition: 0.4s;
+    }
+
+    p {
+        font-family: "Roboto", sans-serif;
+        font-size: 17px;
+    }
+
+    span {
+        font-family: "Tektur", sans-serif;
+        color: rgb(211, 170, 21);
+    }
+}
+
+section {
+    padding: 15px;
+    max-width: 1100px;
+    margin: auto;
+
+    h2 {
+        width: 200px;
+        padding: 6px 5px;
+        border-radius: 8px;
+        background-color: white;
+        color: #524cc2;
+        font-family: "Roboto", sans-serif;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        transition: 0.4s;
+    }
+
+    h2:hover {
+        scale: 1.1;
+        transition: 0.4s;
+    }
+
+    .works-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .card {
+        width: 300px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        transition: 0.4s;
+    }
+
+    .card:hover {
+        scale: 1.1;
+        transition: 0.4s;
+    }
+
+    .card h3 {
+        margin-top: 0;
+        color: #6C63FF;
+        font-family: "Roboto", sans-serif;
+    }
+}
+
+.project-container {
+    padding: 15px;
+    max-width: 1100px;
+    margin: auto;
+
+    h2 {
+        width: 200px;
+        padding: 6px 5px;
+        border-radius: 8px;
+        background-color: white;
+        color: #524cc2;
+        font-family: "Roboto", sans-serif;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        transition: 0.4s;
+    }
+
+    h2:hover {
+        scale: 1.1;
+        transition: 0.4s;
+    }
+
+    a {
+        width: 200px;
+        display: flex;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        background-color: #6C63FF;
+        color: #f4f4f4;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 8px;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.4s;
+    }
+
+    a:hover {
+        scale: 1.1;
+        transition: 0.4s;
+        background-color: #524cc2;
+    }
+}
+
+.contact-footer {
+    width: 100vw;
+    padding: 15px;
+    text-align: center;
+    background: #1f1f2e;
+    color: #f4f4f4;
+    position: fixed;
+    bottom: 0;
+    font-family: "Roboto", sans-serif;
+
+    a.btn {
+        display: flex;
+        width: 150px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+        background-color: #1e17a0;
+        color: #f4f4f4;
+        padding: 2px 3px;
+        border-radius: 4px;
+        text-decoration: none;
+        /* text-transform: uppercase; */
+        transition: 400ms;
+    }
+
+    a.btn:hover {
+        background-color: #140f6d;
+        transition: 400ms;
+    }
+
+    a img {
+        margin-left: 10px;
+        transition: 300ms;
+    }
+
+    a img:hover {
+        transition: 300ms;
+        scale: 1.2;
+    }
+
+    .copy-footer {
+        margin-bottom: 0;
+        font-family: "Tektur", sans-serif;
+        font-size: 11px;
+    }
+}
